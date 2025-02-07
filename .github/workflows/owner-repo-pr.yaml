@@ -36,6 +36,7 @@ jobs:
         run: |
           npm install -g mbt
           npm install --production
+          npm install -g rimraf
 
       # Step 4: Install CF Cli
       - name: Install CF Cli
